@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Task;
+
 class TasksController extends Controller
 {
     /**
@@ -29,7 +31,7 @@ class TasksController extends Controller
     {
         $task = new Task;
 
-        return view('task.create', [
+        return view('tasks.create', [
             'task' => $task,
         ]);
     }

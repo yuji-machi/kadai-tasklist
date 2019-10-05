@@ -22,6 +22,5 @@
             </tbody>
         </table>
         @endif
-    
     {!! link_to_route('tasks.create', 'タスクを追加', [], ['class' => 'btn btn-primary']) !!}
 @endsection
