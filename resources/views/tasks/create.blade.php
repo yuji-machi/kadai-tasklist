@@ -11,7 +11,7 @@
 @endif
 
 <h1>タスク新規追加ページ</h1>
-{!! Form::model($message, ['route' => 'messages.store']) !!}
+{!! Form::model($task, ['route' => 'tasks.store']) !!}
     <div class="row">
         <div class="col-6">
             {!! Form::model($task, ['route' => 'tasks.store']) !!}
